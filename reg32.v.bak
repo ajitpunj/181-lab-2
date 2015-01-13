@@ -1,0 +1,6 @@
+module reg32(clock, resetn, D, byteenable, Q);
+	input clock, resetn;
+	input [3:0] byteenable;
+	input [31:0] D;
+	output [31:0] Q;
+	
